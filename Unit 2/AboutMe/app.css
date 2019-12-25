@@ -1,0 +1,15 @@
+h1{
+	color: rgb(100, 0, 100);
+	border-color: purple;
+	border-width: 2px;
+	border-style:dashed;
+}
+li{
+	color: green;
+}
+h4{
+	color:purple;
+}
+body{
+	background: pink;
+}

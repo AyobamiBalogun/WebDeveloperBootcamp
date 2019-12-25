@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simpleforms</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<div>
+		<label for="FIRSTNAME">First Name:</label>
+		<input id="FIRSTNAME" type="text" placeholder="John" name="FirstName"    required>
+		
+		<label for="LASTNAME">Last Name:</label>
+		<input id="LASTNAME" name="LastName" type="text" placeholder="Smith" required>
+	</div>
+
+	<div>
+		<label>Male
+			<input type="radio" name="Gender" value="Male">
+		</label>
+		<label>Female
+			<input type="radio" name="Gender"  value="Female">
+		</label>
+		<label>Other
+			<input type="radio" name="Gender"  value="Other">
+		</label>
+	</div>
+
+	<div>
+		<label>Email:
+			<input type="email" name="Email" required="" placeholder="your email">
+		</label>
+		<label>Password:
+			<input type="password" name="Password" required="" placeholder="your password" minlength="5" maxlength="10">
+		</label>
+	</div>
+	<div>
+		<label>Birthday:
+			<select>
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>March</option>
+				<option>Apr</option>
+				<option>May</option>
+				<option>Jun</option>
+				<option>Jul</option>
+				<option>Aug</option>
+				<option>Sep</option>
+				<option>Oct</option>
+				<option>Nov</option>
+				<option>Dec</option>
+			</select>
+
+			<select>
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+				<option>16</option>
+				<option>17</option>
+				<option>18</option>
+				<option>19</option>
+				<option>20</option>
+				<option>21</option>
+				<option>22</option>
+				<option>23</option>
+				<option>24</option>
+				<option>25</option>
+				<option>26</option>
+				<option>27</option>
+				<option>28</option>
+				<option>29</option>
+				<option>30</option>
+				<option>31</option>
+			</select>
+			<select>
+				<option>Year</option>
+				<option>1999</option>
+				<option>1998</option>
+				<option>1997</option>
+			</select>
+		</label>
+	</div>
+	<p>I agree to the terms and conditions 
+		<input type="checkbox" name="Checkbox">
+	</p>
+	<input type="submit" name="Submit">
+</form>
+
+</body>
+</html>

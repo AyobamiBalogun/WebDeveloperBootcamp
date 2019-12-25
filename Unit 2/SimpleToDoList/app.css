@@ -1,0 +1,13 @@
+
+body{
+	background: pink;
+}
+li{
+	border:2px dashed purple;
+}
+#special{
+	background-color: yellow;
+}
+.completed{
+	text-decoration: line-through;
+}
